@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #75dcf8, #c2e2f8); /* Sky blue to light blue gradient */
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Course List Styling */
+ul {
+    list-style-type: none;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+/* Course Title Styling */
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Link/Button Styling */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(36, 95, 143); /* Cyan blue */
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    display: inline-block;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Link Hover Effect */
+a:hover {
+    background-color: #4cd1d8; /* Lighter cyan */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    li {
+        padding: 15px;
+    }
+}

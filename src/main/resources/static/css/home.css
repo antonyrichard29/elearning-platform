@@ -1,0 +1,85 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg,  #75dcf8, #c2e2f8); /* Sky blue to light blue gradient */
+    color: #ffffff; /* White text for contrast */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+    font-size: 4rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Subheading / Paragraph */
+p {
+    font-size: 1.5rem;
+    color: #f0f8ff; /* Pale white color */
+    margin-bottom: 40px;
+}
+
+/* Links/Button Style */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(36, 95, 143); /* Cyan blue for the button */
+    padding: 18px 36px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Link Hover Effect */
+a:hover {
+    background-color: #4cd1d8;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    a {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+}

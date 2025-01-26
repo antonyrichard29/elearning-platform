@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg,#75dcf8, #c2e2f8); /* Sky blue to light blue gradient */
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Container Styling */
+form {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    max-width: 90%;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Input Styling */
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b0d4f1;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color:black;
+    font-size: 1rem;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(36, 95, 143); /* Cyan blue */
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #4cd1d8; /* Lighter cyan */
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Error Message */
+.error-message {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(231, 76, 60, 0.8); /* Red error */
+}
+
+/* Link Styling */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #4cd1d8;
+}
+
+/* Message for New Users */
+.new-account {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Link Styling */
+.new-account a {
+    color: rgba(231, 76, 60, 0.8); /* Light red for link */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect for Link */
+.new-account a:hover {
+    color: #003366; /* Dark blue on hover */
+}
+/* Message for New Users */
+.new-account {
+    margin-top: 30px; /* Add spacing above the text */
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Link Styling */
+.new-account a {
+    color: rgba(231, 76, 60, 0.8); /* Light red for link */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect for Link */
+.new-account a:hover {
+    color: #003366; /* Dark blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    form {
+        padding: 15px 30px;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}

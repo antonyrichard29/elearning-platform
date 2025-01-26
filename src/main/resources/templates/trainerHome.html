@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Trainer Home</title>
+    <link rel="stylesheet" type="text/css" href="/css/trainerHome.css">
+    
+</head>
+<body>
+    <h1>Welcome, <span th:text="${username}"></span>!</h1>
+
+    <a href="/addC">Add New Course</a><br>
+    <a href="/viewCourses">View All Courses</a><br>
+    <a href="/logout">Logout</a>
+</body>
+</html>

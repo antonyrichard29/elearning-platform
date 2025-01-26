@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Course Details</title>
+    <link rel="stylesheet" type="text/css" href="/css/courseDetails.css">
+</head>
+<body>
+    <h1 th:text="${course.courseName}"></h1>
+    <div class="course-content" th:utext="${course.content}"></div>
+    <div class="video-container">
+    <iframe 
+        width="75%" 
+        height="75%"
+        th:src="'https://www.youtube.com/embed/' + ${course.youtubeVideoUrl}"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+   </div> 
+</body>
+</html>
