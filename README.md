@@ -1,5 +1,3 @@
-## **README for E-Learning Platform**
-
 ### **Project Title**
 E-Learning Platform
 
