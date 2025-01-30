@@ -1,7 +1,6 @@
-### **Project Title**
-E-Learning Platform
+### **E-Learning Platform**
 
-### **Project Description**
+### **Description**
 This is a web-based e-learning platform that allows trainers to create courses and students to enroll and access course content. The platform includes YouTube video integration for courses and user role management. The backend is built with **Spring Boot**, the frontend uses **Thymeleaf**, and the database is **MySQL**.
 
 ### **Technologies Used**
